@@ -1,13 +1,11 @@
 #include "sort.h"
-
 void shell_sort(int *array, size_t size);
 void swap_ints(int *a, int *b);
-
 /**
- * shell_sort - Sorts an array of integers in ascending order.
+ * shell_sort - Sorts an array of integers
  *
- * @array: The array to be sorted.
- * @size: The size of the array.
+ * @array: The array to be sorted
+ * @size: The size of the array
  */
 void shell_sort(int *array, size_t size)
 {

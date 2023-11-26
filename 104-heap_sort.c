@@ -4,10 +4,10 @@ void heap_sort(int *array, size_t size);
 void sift_down(int *array, size_t size, size_t base, size_t root);
 
 /**
- * heap_sort - Sorts an array of integers in ascending order.
+ * heap_sort - Sorts an array of integers
  *
- * @array: The array to be sorted.
- * @size: The size of the array.
+ * @array: The array to be sorted
+ * @size: The size of the array
  */
 void heap_sort(int *array, size_t size)
 {
@@ -33,12 +33,12 @@ void heap_sort(int *array, size_t size)
 }
 
 /**
- * sift_down - Turn a binary tree into a complete binary heap.
+ * sift_down - Turn a binary tree into a complete binary
  *
- * @array: An array of integrs.
- * @size: The size of the array/tree.
- * @base: The index of the base row.
- * @root: The root of the binary tree.
+ * @array: An array of integrs
+ * @size: The size of the array/tree
+ * @base: The index of the base row
+ * @root: The root of the binary tree
  */
 void sift_down(int *array, size_t size, size_t base, size_t root)
 {

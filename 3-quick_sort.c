@@ -1,15 +1,13 @@
 #include "sort.h"
-
 void quick_sort(int *array, size_t size);
 void lomuto_sort(int *array, size_t size, int left, int right);
 int lomuto_partition(int *array, size_t size, int left, int right);
 void swap_ints(int *a, int *b);
-
 /**
- * quick_sort - Sort an array of integers in ascending order.
+ * quick_sort - Sort an array of integers
  *
- * @array: An array of integers.
- * @size: The size of the array.
+ * @array: An array of integers
+ * @size: The size of the array
  */
 void quick_sort(int *array, size_t size)
 {
@@ -20,12 +18,12 @@ void quick_sort(int *array, size_t size)
 }
 
 /**
- * lomuto_sort - Implement the quicksort algorithm through recursion.
+ * lomuto_sort - Implement the quicksort
  *
  * @array: An array of integers to sort.
- * @size: The size of the array.
- * @left: The starting index of the array partition to order.
- * @right: The ending index of the array partition to order.
+ * @size: The size of the array
+ * @left: The starting index of the array partition to order
+ * @right: The ending index of the array partition to order
  */
 void lomuto_sort(int *array, size_t size, int left, int right)
 {

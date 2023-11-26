@@ -5,10 +5,10 @@ void hoare_sort(int *array, size_t size, int left, int right);
 int hoare_partition(int *array, size_t size, int left, int right);
 
 /**
- * quick_sort_hoare - Sorts an array of integers in ascending order.
+ * quick_sort_hoare - Sorts an array
  *
- * @array: The arrays to be sorted.
- * @size: The size of the array.
+ * @array: The arrays to be sorted
+ * @size: The size of the array
  */
 void quick_sort_hoare(int *array, size_t size)
 {
@@ -19,12 +19,12 @@ void quick_sort_hoare(int *array, size_t size)
 }
 
 /**
- * hoare_sort - Implement the quick sort algorithm.
+ * hoare_sort - Implement the quick sort algorithm
  *
- * @array: The array to be sorted.
- * @size: The size of the array.
- * @left: The starting index of the array.
- * @right: The ending index of the array.
+ * @array: The array to be sorted
+ * @size: The size of the array
+ * @left: The starting index of the array
+ * @right: The ending index of the array
  */
 void hoare_sort(int *array, size_t size, int left, int right)
 {
@@ -39,14 +39,14 @@ void hoare_sort(int *array, size_t size, int left, int right)
 }
 
 /**
- * hoare_partition - Order a subset of an array of integers.
+ * hoare_partition - Order a subset of an array
  *
- * @array: The array to be sorted.
- * @size: The size of the array.
- * @left: The starting index of the array.
- * @right: The ending index of the array.
+ * @array: The array to be sorted
+ * @size: The size of the array
+ * @left: The starting index of the array
+ * @right: The ending index of the array
  *
- * Return: The final partitioning index.
+ * Return: The final partitioning index
  */
 int hoare_partition(int *array, size_t size, int left, int right)
 {

@@ -6,9 +6,9 @@ char get_value(deck_node_t *card);
 int _strcmp(const char *s1, const char *s2);
 
 /**
- * sort_deck - Sorts a deck of cards.
+ * sort_deck - Sorts a deck of cards
  *
- * @deck: Pointer to the head of the list.
+ * @deck: Pointer to the head of the list
  */
 void sort_deck(deck_node_t **deck)
 {
@@ -43,9 +43,9 @@ void sort_deck(deck_node_t **deck)
 }
 
 /**
- * insertion_sort_deck_value - Sort a deck of cards.
+ * insertion_sort_deck_value - Sort a deck of cards
  *
- * @deck: A pointer to the head of a list.
+ * @deck: A pointer to the head of a list
  */
 void insertion_sort_deck_value(deck_node_t **deck)
 {

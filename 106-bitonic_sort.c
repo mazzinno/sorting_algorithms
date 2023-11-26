@@ -6,10 +6,10 @@ void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
 		char flow);
 
 /**
- * bitonic_sort - Sorts an array of integers in ascending order.
+ * bitonic_sort - Sorts an array of integers
  *
- * @array: The array to be sorted.
- * @size: The size of array.
+ * @array: The array to be sorted
+ * @size: The size of array
  */
 void bitonic_sort(int *array, size_t size)
 {
@@ -20,13 +20,13 @@ void bitonic_sort(int *array, size_t size)
 }
 
 /**
- * bitonic_seq - Convert an array of integers into bitonic seq.
+ * bitonic_seq - Convert an array of integers
  *
- * @array: An array of integers.
- * @size: The size of the array.
- * @start: The starting index of a block of the building bitonic sequence.
- * @seq: The size of a block of the building bitonic sequence.
- * @flow: The direction to sort the bitonic sequence block in.
+ * @array: An array of integers
+ * @size: The size of the array
+ * @start: The starting index of a block of the building bitonic sequence
+ * @seq: The size of a block of the building bitonic sequence
+ * @flow: The direction to sort the bitonic sequence block in
  */
 void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
 {
@@ -48,13 +48,13 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
 }
 
 /**
- * bitonic_merge - Sort a bitonic sequence inside an array of integers.
+ * bitonic_merge - Sort a bitonic sequence
  *
- * @array: An array of integers.
- * @size: The size of the array.
- * @start: The starting index of the sequence in array to sort.
- * @seq: The size of the sequence to sort.
- * @flow: The direction to sort in.
+ * @array: An array of integers
+ * @size: The size of the array
+ * @start: The starting index of the sequence in array to sort
+ * @seq: The size of the sequence to sort
+ * @flow: The direction to sort in
  */
 void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
 		char flow)

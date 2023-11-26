@@ -5,10 +5,10 @@ int get_max(int *array, int size);
 void radix_count(int *array, size_t size, int sign, int *buffer);
 
 /**
- * radix_sort - Sorts an array of integers in ascending order.
+ * radix_sort - Sorts an array of integers
  *
- * @array: The array to be sorted.
- * @size: The size of the array.
+ * @array: The array to be sorted
+ * @size: The size of the array
  */
 void radix_sort(int *array, size_t size)
 {
@@ -30,12 +30,12 @@ void radix_sort(int *array, size_t size)
 }
 
 /**
- * get_max - Get the maximum value in an array of integers.
+ * get_max - Get the maximum value
  *
- * @array: An array of integers.
- * @size: The size of the array.
+ * @array: An array of integers
+ * @size: The size of the array
  *
- * Return: The maximum integer in the array.
+ * Return: The maximum integer in the array
  */
 int get_max(int *array, int size)
 {
@@ -51,12 +51,12 @@ int get_max(int *array, int size)
 }
 
 /**
- * radix_count - Sort the significant digit.
+ * radix_count - Sort the significant digit
  *
- * @array: The array to be sorted.
- * @size: The size of the array.
- * @sign: The significant digit to be sorted.
- * @buffer: A buffer to store the sorted array.
+ * @array: The array to be sorted
+ * @size: The size of the array
+ * @sign: The significant digit to be sorted
+ * @buffer: A buffer to store the sorted array
  */
 void radix_count(int *array, size_t size, int sign, int *buffer)
 {

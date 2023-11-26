@@ -1,9 +1,8 @@
 #include "sort.h"
-
 /**
- * insertion_sort_list - Sorts a doubly LL of integers in ascending order.
+ * insertion_sort_list - Sorts a doubly LL of integers
  *
- * @list: The list to be sorted.
+ * @list: The list to be sorted
  */
 void insertion_sort_list(listint_t **list)
 {
